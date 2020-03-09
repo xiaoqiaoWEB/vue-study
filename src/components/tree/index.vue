@@ -9,7 +9,7 @@
 <script>
 import Item from './item'
 export default {
-  data() {
+  data () {
     return {
       menuDate: {
         title: '全站开发工程师',
@@ -39,7 +39,7 @@ export default {
                   {
                     title: 'router',
                     children: []
-                  },
+                  }
                 ]
               }
             ]

@@ -19,22 +19,22 @@ export default {
       required: true
     }
   },
-  data() {
+  data () {
     return {
       open: false
     }
   },
   computed: {
-    isFolder() {
+    isFolder () {
       return this.model.children && this.model.children.length
     }
   },
   methods: {
-    toggle() {
-      if(this.isFolder) {
-        this.open  = !this.open
+    toggle () {
+      if (this.isFolder) {
+        this.open = !this.open
       }
     }
-  },
+  }
 }
 </script>
